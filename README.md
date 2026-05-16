@@ -32,4 +32,4 @@ Open the Python script (or Jupyter Notebook cell) and update the input/output fi
 
 ```python
 input_file_path = r"C:/path/to/your/main.toc"
-output_file_path = r"C:/path/to/your/fehrest_word.html"
+output_file_path = r"C:/path/to/your/content_list_pr.html (or content_list_en.html)"
