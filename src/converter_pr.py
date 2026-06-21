@@ -1,7 +1,7 @@
 import re
 
 #make an HTML file to write the contents
-output_file_path = r"F:\learn programming\python and django\py doc latex\content_list.html"
+output_file_path = r"YOUR PATH/YOUR FILE.html"
 MAX_LENGTH=120
 
 #This function is added to convert digits to Persian digits
@@ -22,7 +22,7 @@ with open(output_file_path, 'w', encoding='utf-8') as out_file:
     out_file.write('<html><head><meta charset="utf-8"></head>')
     out_file.write('<body dir="rtl" style="font-family:\'B Nazanin\', \'Vazirmatn\', Tahoma; font-size:14pt; line-height:2.2;">\n')
     
-    with open(r"F:\learn programming\python and django\py doc latex\main.toc",'r', encoding='utf-8') as file:
+    with open(r"YOUR PATH\YOUR FILE.doc",'r', encoding='utf-8') as file:
         content=file.read()
     
     for line in content.split('\n'):
